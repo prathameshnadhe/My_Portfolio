@@ -212,4 +212,14 @@
   .selected-bullet {
     width: 100%;
   }
+
+  .heading-bullet {
+    left: 0px;
+    size: 1px;
+  }
+
+  .heading-date {
+    padding: 5px;
+    text-align: center;
+  }
 }

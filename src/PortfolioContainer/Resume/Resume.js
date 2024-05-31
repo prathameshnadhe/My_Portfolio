@@ -20,14 +20,16 @@ export default function Resume(props) {
       <div className="resume-heading">
         <div className="resume-main-heading">
           <div className="heading-bullet"></div>
-          <span>{props.heading ? props.heading : ""}</span>
-          {props.fromDate && props.toDate ? (
-            <div className="heading-date">
-              {props.fromDate + "-" + props.toDate}
-            </div>
-          ) : (
-            <div></div>
-          )}
+            <span style={{ marginLeft: "20px" }}>
+              {props.heading ? props.heading : ""}
+            </span>
+            {props.fromDate && props.toDate ? (
+              <div className="heading-date">
+                {props.fromDate + "-" + props.toDate}
+              </div>
+            ) : (
+              <div></div>
+            )}
         </div>
         <div className="resume-sub-heading">
           <span>{props.subHeading ? props.subHeading : ""}</span>
@@ -143,7 +145,7 @@ export default function Resume(props) {
         return (
           <div className="skill-parent" key={index}>
             <div className="heading-bullet"></div>
-            <span>{skill.skill}</span>
+            <span style={{ marginLeft: "20px" }}>{skill.skill}</span>
             <div className="skill-percentage">
               <div
                 style={{ width: skill.ratingPercentage + "%" }}

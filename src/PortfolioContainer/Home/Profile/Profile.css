@@ -116,7 +116,7 @@
   }
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 710px) {
   .profile-picture {
     margin: 0 !important;
   }
@@ -128,7 +128,7 @@
 
   .profile-options {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .profile-details {
@@ -142,6 +142,14 @@
   .profile-details-name,
   .profile-details-role {
     text-align: center;
+  }
+
+  .profile-details-role .primary-text {
+    font-size: 10px;
+  }
+
+  .btn {
+    font-size: 15px;
   }
 }
 

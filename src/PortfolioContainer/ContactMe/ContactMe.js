@@ -48,7 +48,11 @@ export default function ContactMe(props) {
   };
 
   return (
-    <div className="main-container fade-in" id={props.id || ""}>
+    <div
+      className="main-container fade-in"
+      id={props.id || ""}
+      style={{ padding: "5px" }}
+    >
       <ScreenHeading title={"Contact Me"} subHeading={"Lets Keep In Touch"} />
       <div className="central-form">
         <div className="col">
