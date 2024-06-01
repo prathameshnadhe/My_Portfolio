@@ -20,16 +20,16 @@ export default function Resume(props) {
       <div className="resume-heading">
         <div className="resume-main-heading">
           <div className="heading-bullet"></div>
-            <span style={{ marginLeft: "20px" }}>
-              {props.heading ? props.heading : ""}
-            </span>
-            {props.fromDate && props.toDate ? (
-              <div className="heading-date">
-                {props.fromDate + "-" + props.toDate}
-              </div>
-            ) : (
-              <div></div>
-            )}
+          <span style={{ marginLeft: "20px" }}>
+            {props.heading ? props.heading : ""}
+          </span>
+          {props.fromDate && props.toDate ? (
+            <div className="heading-date">
+              {props.fromDate + "-" + props.toDate}
+            </div>
+          ) : (
+            <div></div>
+          )}
         </div>
         <div className="resume-sub-heading">
           <span>{props.subHeading ? props.subHeading : ""}</span>
@@ -117,9 +117,9 @@ export default function Resume(props) {
           fostering connections between nonprofits and supporters through
           innovative online fundraising experiences. Specializing in React with
           TypeScript, I contribute by integrating server-side functionalities
-          and translating Figma designs into responsive interfaces. I've notably
-          enhanced the Admin Dashboard, utilizing my expertise to optimize
-          performance and usability, thereby driving the project's success.
+          and translating Figma designs into responsive interfaces. Enhanced the
+          Admin Dashboard, optimizing performance and usability to drive project
+          success.
         </span>
       </div>
       {/* <div className="experience-description">
