@@ -29,7 +29,7 @@ export default function Project(props) {
       title: "Foodies",
       description: "Food delivery app with Swiggy's live API",
       githubLink: "https://github.com/prathameshnadhe/Foodies",
-      deployedLink: "",
+      deployedLink: "https://pratham-foodies.netlify.app/",
       image: foodie,
     },
     {

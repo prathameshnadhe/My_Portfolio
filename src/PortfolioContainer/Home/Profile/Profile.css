@@ -153,13 +153,16 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .profile-picture {
-    height: 275px;
-    width: 275px;
-    margin-top: -90px;
+    height: 260px;
+    width: 260px;
   }
   .profile-details {
     width: 90%;
+  }
+
+  .profile-details-role h1 {
+    font-size: 2rem;
   }
 }
