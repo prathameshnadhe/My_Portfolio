@@ -19,18 +19,18 @@ export default function Project(props) {
 
   const projects = [
     {
-      title: "Parikrama Tours",
-      description: "A Tour booking platform Frontend",
-      githubLink: "https://github.com/prathameshnadhe/Parikrama_Tours_Frontend",
-      deployedLink: "https://parikrama-tours.netlify.app/",
-      image: parikrama,
-    },
-    {
       title: "Foodies",
       description: "Food delivery app with Swiggy's live API",
       githubLink: "https://github.com/prathameshnadhe/Foodies",
       deployedLink: "https://pratham-foodies.netlify.app/",
       image: foodie,
+    },
+    {
+      title: "Parikrama Tours",
+      description: "A Tour booking platform Frontend",
+      githubLink: "https://github.com/prathameshnadhe/Parikrama_Tours_Frontend",
+      deployedLink: "https://parikrama-tours.netlify.app/",
+      image: parikrama,
     },
     {
       title: "Parikrama Tours",

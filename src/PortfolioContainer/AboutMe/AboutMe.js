@@ -13,7 +13,9 @@ export default function AboutMe(props) {
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   const SCREEN_CONSTANTS = {
-    description: `WORK, LEARN, CONTRIBUTE AND GROW ----- Passionate about front-end technology, especially React and JavaScript, I specialize in leveraging these tools for efficient development. With strong skills in HTML, CSS, and JavaScript.  I develop user-friendly web applications and seamlessly integrate various libraries and frameworks.  Choose me for a developer who combines passion with technical proficiency and practical experience to deliver exceptional web solutions.`,
+    description: `At Cybage Software, our team leverages my expertise in React.js to create dynamic web applications that enhance user experience. Adept in mathematics and advanced computing, I apply analytical rigor to solve complex problems, ensuring our software solutions are both innovative and reliable.
+
+    /n My educational foundation in mathematics, fortified with a PG Diploma in advanced computing, underpins my technical competencies. We've successfully deployed a Tour Booking application and Foodies application, showcasing my capability to translate intricate requirements into user-centric software features.`,
     highlights: {
       bullets: [
         "Front End Developer",
@@ -52,7 +54,9 @@ export default function AboutMe(props) {
           <div className="about-me-profile"></div>
           <div className="about-me-details">
             <span className="about-me-description">
-              {SCREEN_CONSTANTS.description}
+              {SCREEN_CONSTANTS.description.split("/n").map((text, index) => (
+                <p key={index}>{text}</p>
+              ))}
             </span>
             <div className="about-me-highlights">
               <div className="highlights-heading">
